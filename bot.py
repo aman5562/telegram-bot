@@ -162,9 +162,9 @@ def callback(call):
 
         user_orders[call.from_user.id] = plan_key
 
-        upi = "paytm.s1zssxv@pty"
+        upi = "paytm.s1myjcl@pty"
         amount = plan["price"]
-        name = "paikarma"
+        name = "aman"
 
         upi_encoded = urllib.parse.quote(upi)
         name_encoded = urllib.parse.quote(name)
@@ -206,8 +206,8 @@ def callback(call):
             bot.send_message(call.message.chat.id, "❌ No order found")
             return
 
-        merchantid = "aFpena57399629842621"
-        merchantkey = "aFpena57399629842621"
+        merchantid = "nRITGk12916654762446"
+        merchantkey = "nRITGk12916654762446"
 
         url = f"https://paytm.anujbots.xyz/verify.php?orderid={orderid}&merchantid={merchantid}&merchantkey={merchantkey}"
 
