@@ -5,7 +5,7 @@ import urllib.parse
 import threading
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton, InputMediaVideo, InputMediaPhoto
 
-TOKEN = "8619415332:AAH5T5JW2ffE2Ut-fqnbEW0eOihSvEAzkKk"
+TOKEN = "8700628826:AAESlc8YIUSPHSwES2d4AjZS_cAuSunXGP8"
 bot = telebot.TeleBot(TOKEN)
 
 user_orders = {}
