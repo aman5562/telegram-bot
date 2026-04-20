@@ -47,7 +47,7 @@ def start(message):
     markup.add(
         InlineKeyboardButton("💎 Get Premium", callback_data="get_premium"),
         InlineKeyboardButton("🥵 Demo Videos", callback_data="demo"),
-        InlineKeyboardButton("📖 How To Get Premium", url="https://t.me/+sjhIa5apzEE0MTE1")
+        InlineKeyboardButton("📖 How To Get Premium", url="https://t.me/howtogetpre")
     )
 
     photo = open("start.jpg", "rb")
@@ -236,7 +236,7 @@ def callback(call):
         markup.add(
             InlineKeyboardButton("💎 Get Premium", callback_data="get_premium"),
             InlineKeyboardButton("🥵 Demo Videos", callback_data="demo"),
-            InlineKeyboardButton("📖 How To Get Premium", url="https://t.me/+sjhIa5apzEE0MTE1")
+            InlineKeyboardButton("📖 How To Get Premium", url="https://t.me/howtogetpre")
         )
 
         bot.edit_message_media(
